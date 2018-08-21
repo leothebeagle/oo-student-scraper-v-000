@@ -11,7 +11,7 @@ class Student
   end
 
   def self.create_from_collection(students_array) #this is an array of student hashes
-    
+
     students_array.each do |student|
       new_s = Student.new(student) #you pass in the hash as an argument to instantiate a Student object.
     end
